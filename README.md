@@ -2,8 +2,6 @@
 
 Live: https://kojiyamanouchi.github.io/cv/
 
-シンプルな単一カラムのプレーンHTMLで公開しています。AIが読み取りやすい構造を意識し、JS依存を排除しています。
-
 ## About
 
 クリエイティブ × テクノロジー × グローバル。
@@ -49,7 +47,3 @@ Live: https://kojiyamanouchi.github.io/cv/
 - X (Twitter): https://x.com/ouchi
 - note: https://note.com/memonouchi
 - YouTube: https://www.youtube.com/@noouchi
-
----
-
-公開: GitHub Pages（Branch: `main` / Folder: `/docs`）。サイトのソースは `docs/` 以下のプレーンHTML（`index.html`）です。
