@@ -1,12 +1,55 @@
-# cv
+# Nouchi ノウチ — CV / Portfolio
 
-This repository hosts a placeholder page for GitHub Pages.
+Live: https://kojiyamanouchi.github.io/cv/
 
-How to publish:
+シンプルな単一カラムのプレーンHTMLで公開しています。AIが読み取りやすい構造を意識し、JS依存を排除しています。
 
-1. Open the repository settings on GitHub → Pages.
-2. Set **Branch** to `main` and **Folder** to `/docs`.
-3. Save. It may take a minute to go live.
+## About
 
-The placeholder file lives at `docs/index.html`. You can freely replace it with your real site later.
+クリエイティブ × テクノロジー × グローバル。
 
+ゲーム業界で約13年のキャリアを積み、広報・PR部門での業務経験に加え、組織マネジメントまで幅広く携わってきました。また、カナダ支社の立ち上げ責任者として、多様性に富んだ環境での組織構築を経験。
+
+現在はITスタートアップにて、AI関連事業の統括責任者として多数のプロジェクトを推進。ChatGPTやClaude, Geminiなどの生成AIを活用したビジネスソリューションの開発をはじめ、組織のデジタルトランスフォーメーションを牽引しています。
+
+## Skills
+
+- 生成AI技術: 生成AI（ChatGPT/Claude/Gemini等）の事業応用・プロダクト開発
+- 組織マネジメント: 多部門統括・国際チームの構築とリーダーシップ
+- プロジェクトマネジメント: 海外拠点立ち上げ・新規事業開発の実績
+- 広報・PR: 戦略立案から実行・メディアリレーション構築
+- グローバルビジネス: カナダでの事業立ち上げ・多文化環境でのマネジメント
+- イノベーション: 最新技術の事業化・デジタルトランスフォーメーション推進
+
+## Experience
+
+- アル株式会社 — Chief AI Officer・執行役員（2022.03 - 現在）
+  - 生成AI技術を活用した事業開発と組織マネジメント。集英社さんとの共同事業「コミコパ」など新規事業を推進。
+- LINEヤフーコミュニケーションズ株式会社 — クリエイティブ室マネージャー（2020.03 - 2022.03）
+  - LINEスタンプを中心としたクリエイティブ組織のマネジメントを担当。組織のケイパビリティを拡大。
+- CyberConnect2 Montreal Studio Inc. — ゼネラルマネージャー（2016.10 - 2019.07）
+  - カナダ支社の立ち上げ責任者として現地に赴任。30名規模の多様性豊かな組織を構築。
+- 株式会社サイバーコネクトツー — 宣伝広報責任者（2007.10 - 2020.02）
+  - 家庭用ゲームソフトのPR・ブランディングを担当。自社ECの立ち上げ、キャラクター開発などでファン拡大を実現。
+
+## Projects
+
+- コミコパ (Comic-Copilot)
+  - 集英社さんとの共同事業として、漫画領域における生成AIサービスを開発。リリース後10日間で約2.5万人のユーザーを獲得。
+  - https://lp.comic-copilot.ai/
+- MANGA Plus Universe
+  - 生成AI翻訳システムによるグローバルコミュニティを構築。1ヶ月で27万人のユーザーアクセスを達成。
+  - https://prtimes.jp/main/html/rd/p/000000014.000018525.html
+- カナダ支社立ち上げ
+  - カナダにおけるゲーム開発拠点をゼロから構築。多様性豊かな30名規模のチームを組織し、グローバル開発体制を確立。
+  - https://cgworld.jp/news/service/201605-cc2-montreal.html
+
+## Contact
+
+- X (Twitter): https://x.com/ouchi
+- note: https://note.com/memonouchi
+- YouTube: https://www.youtube.com/@noouchi
+
+---
+
+公開: GitHub Pages（Branch: `main` / Folder: `/docs`）。サイトのソースは `docs/` 以下のプレーンHTML（`index.html`）です。
