@@ -1,0 +1,52 @@
+/* Minimal, markdown-like presentation and compact spacing */
+html, body {
+  background: #fff !important;
+  color: #111 !important;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
+               "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif !important;
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+}
+
+#root, main, section {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 8px 12px !important;
+}
+
+/* Headings and text */
+h1 { font-size: 1.6rem; margin: 0.4rem 0 0.6rem; font-weight: 700; }
+h2 { font-size: 1.3rem; margin: 0.6rem 0 0.4rem; font-weight: 700; }
+h3 { font-size: 1.15rem; margin: 0.6rem 0 0.3rem; font-weight: 600; }
+p, li { margin: 0.25rem 0; }
+a { color: #0366d6; text-decoration: underline; }
+img, video { max-width: 100%; height: auto; }
+
+/* Remove flashy backgrounds, shadows, and rounding from sections/cards */
+[class*="bg-"], [class*="shadow"], [class*="rounded"], .card {
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  border: none !important;
+}
+
+/* Flatten nav/header */
+nav { position: static !important; background: transparent !important; border: 0 !important; }
+
+/* Compress spacing utilities commonly emitted by Tailwind */
+[class*="py-"], [class*="pt-"], [class*="pb-"] { padding-top: 8px !important; padding-bottom: 8px !important; }
+[class*="px-"], [class*="pl-"], [class*="pr-"] { padding-left: 12px !important; padding-right: 12px !important; }
+[class*="my-"], [class*="mt-"], [class*="mb-"] { margin-top: 8px !important; margin-bottom: 8px !important; }
+[class*="mx-"], [class*="ml-"], [class*="mr-"] { margin-left: 0 !important; margin-right: 0 !important; }
+[class*="gap-"] { gap: 8px !important; }
+
+/* Disable all transitions/animations and forced hidden states */
+.transition, .transition-all, [class*="duration-"], [class*="ease-"] { transition: none !important; }
+.opacity-0 { opacity: 1 !important; }
+.translate-y-\[20px\] { transform: none !important; }
+.translate-y-0 { transform: none !important; }
+
+/* Ensure sections stack like markdown */
+section { border-top: 1px solid #e5e7eb; }
+section:first-of-type { border-top: 0; }
+
