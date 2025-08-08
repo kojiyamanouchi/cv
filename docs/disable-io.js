@@ -12,6 +12,16 @@
       disconnect() {}
       takeRecords() { return []; }
     };
+
+    // Suppress scroll-driven effects that hide/reposition content
+    const origAddEventListener = window.addEventListener.bind(window);
+    window.addEventListener = function(type, listener, options){
+      if (type === 'scroll') { return; }
+      return origAddEventListener(type, listener, options);
+    };
+
+    // Neutralize requestAnimationFrame-heavy animations
+    const raf = window.requestAnimationFrame.bind(window);
+    window.requestAnimationFrame = (cb) => raf(() => cb(performance.now()));
   } catch (_) { /* no-op */ }
 })();
-
